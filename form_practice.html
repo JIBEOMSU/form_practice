@@ -6,22 +6,25 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="https://server.ai-school.com">
+    <form action="https://server.ai-school.com", method="POST">
         ID: <input type="text" name="id" placeholder="아이디를 입력하세요"/>
         <br/>
         PW: <input type="password" id="userpw" name="pw" placeholder="비밀번호를 입력하세요"/>
         <br/>
-        <label for="userpw">비밀번호 질문</label>
+        <label for="userpw">비밀번호 확인 질문</label>
         <select name="hint">
             <option value="질문1">졸업한 초등학교 이름은?</option>
             <option value="질문2">아버지 이름은?</option>
             <option value="질문3">본인 생일은?</option>
         </select>
+        <input type="text"/>
         <br/>
         <br/>
         <textarea name="intro", cols="30", rows="10">
             자기소개입력
         </textarea>
+        <br/>
+        <input type="submit", value="회원가입">
     </form>
 
 </body>
