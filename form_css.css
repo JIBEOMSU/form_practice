@@ -1,6 +1,6 @@
 * {
+    background-color: ivory;
     text-align: center;
-    background-color: tan;
     font-family: fantasy;
 }
 
@@ -8,3 +8,16 @@ label {
     font-weight: bold;
 }
 
+input {
+    border: 15;
+}
+
+.info{
+    width: 150px;
+    height: 23px;
+}
+
+#ai{
+    width: 150px;
+    height: 80px;
+}
